@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Input tags</title>
+</head>
+<body> 
+     <h1 align="center">Input Tags in table format</h1>
+	<table border="1px" align="center">
+		<tr>
+			<td><label>Name</label></td>
+			<td><input type="text" name="Name" id="Name"></td>
+		</tr>
+		<tr>
+			<td><label>password</label></td>
+			<td><input type="password" name="password" id="password"></td>
+		</tr>
+		<tr>
+			<td><label>Email</label></td>
+			<td><input type="email" name="email" id="email">
+		</tr>
+		<tr>
+			<td><label>Pincode</label></td>
+			<td><input type="pincode" name="pincode" id="pincode">
+		</tr>
+		<tr>
+			<td><label>Image</label></td>
+			<td><input type="file" name="file" id="file">
+			</tr>
+		<tr>
+			<td><label>Gender</label></td>
+			<td><input type="radio" name="gender" id="male" value="male">male
+			<input type="radio" name="gender" id="female" value="female">female</td>
+			</tr>
+		<tr>
+			<td><label>Mobile number</label></td>
+			<td><input type="text" name="number" id="number">
+			</tr>
+		<tr>
+		      <td><label>Qualification</label></td>
+		      <td>
+		      <select> 
+           <option value="">--Select--</option>
+         <optgroup label="Qualification">
+         <option value="bech">BTECH</option>
+        <option value="mba">MBA</option>
+         <option value="mca">MCA</option>
+    </optgroup>
+</select>
+</td>
+<tr>
+      <td><label>Course</label></td>
+      <td>
+      	<select>
+      <option value="">--Select--</option>
+      <optgroup label="course">
+      <option value="btech">BTECH</option>
+      <option value="cse">CSE</option>
+      <option value="eee">EEE</option>
+      <option value="mech">MECH</option>
+    </optgroup>
+  </select>
+ </td>
+		 <tr>
+		    <td><label>Date of birth</label></td>
+		    <td><input type="date" name="date" id="date">
+		    </tr>	
+		   <tr>
+		   	<td><label>Age</label></td>
+		   	<td><input type="age" name="age" id="age">
+		  </tr>
+		  
+		  <td><label>select state</label></td>
+		  <td>
+           <select>
+		  	<option value="">--Select--</option>
+		  	<option value="andhrapradesh">ANDHRAPRADESH</option>
+		  	<option value="telangana">TELANGANA</option>
+		  	<option value="tamilnadu">TAMILNADU</option>
+		  </select>
+		</td>
+		<tr>
+			<td><label>games</label></td>
+			<td><input type="checkbox" name="cricket" id="cricket">cricket
+			<input type="checkbox" name="basketball" id="basketball" value="basketball">basketball</td>
+			</tr>
+			<tr>
+				<td><label>Time</label></td>
+				<td><input type="time" name="time" id="time">
+				</tr>
+				<tr>
+			<td><label>Address</label></td>
+			<td><textarea id="address"  cols="5" rows="5" ></textarea>
+		</tr>
+		<tr>
+			<td><input type="reset" name="cancel" id="cancel" value="cancel"></td>
+
+		<td><input type="submit" name="save" id="save" value="save"></td>
+</tr>
+
+	</table>
+
+</body>
+</html>
